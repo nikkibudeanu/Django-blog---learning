@@ -72,6 +72,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'django_blog.wsgi.application'
 
+#CSRF_TRUSTED_ORIGINS = ['https://8000-nikkibudean-djangoblogl-se5i3n642pt.ws-eu44.gitpod.io/']
+
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
