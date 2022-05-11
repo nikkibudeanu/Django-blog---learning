@@ -13,6 +13,7 @@ bleach==4.1.0
 certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.12
+cloudinary==1.29.0
 commonmark==0.9.1
 cryptography==36.0.2
 debugpy==1.6.0
@@ -20,8 +21,12 @@ decorator==5.1.1
 defusedxml==0.7.1
 dill==0.3.4
 distlib==0.3.4
-Django==4.0.4
+dj-database-url==0.5.0
+dj3-cloudinary-storage==0.0.6
+Django==3.2.13
 django-allauth==0.50.0
+django-crispy-forms==1.14.0
+django-summernote==0.8.20.0
 docutils==0.18.1
 entrypoints==0.4
 executing==0.8.3
@@ -29,6 +34,7 @@ filelock==3.6.0
 flake8==4.0.1
 gitdb==4.0.9
 GitPython==3.1.27
+gunicorn==20.1.0
 idna==3.3
 importlib-metadata==4.11.3
 importlib-resources==5.6.0
@@ -70,6 +76,7 @@ platformdirs==2.5.1
 prometheus-client==0.13.1
 prompt-toolkit==3.0.28
 psutil==5.9.0
+psycopg2==2.9.3
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pycodestyle==2.8.0
@@ -84,6 +91,7 @@ pyparsing==3.0.7
 pyrsistent==0.18.1
 python-dateutil==2.8.2
 python3-openid==3.2.0
+pytz==2022.1
 PyYAML==6.0
 pyzmq==22.3.0
 readme-renderer==34.0
